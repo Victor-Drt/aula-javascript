@@ -1,3 +1,41 @@
+function mostrarMensagem(){
+    //alert("Obirgado por clicar!")
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar!</b>";
+    console.log(document.getElementById("agradecimento"))
+}
+
+//funçoes
+/*function soma(n1,n2){
+   return alert(n1+n2);
+}
+soma(5,10);
+
+function validaIdade(idade){
+    if(idade >= 18){
+        alert("Maior de idade!");
+    }else{
+        alert("Menor de idade!");
+    }
+}
+
+idade = prompt("Qual a sua idade?");
+validaIdade(idade);
+*/
+
+/*function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome);
+}
+
+alert(setReplace("Vai Japao", "Japao", "Brasil"));*/
+
+
+/*var date = new Date();
+alert(date)
+alert(date.getDay());
+alert(date.getMonth()+1);
+alert(date.getHours()); 
+*/
+
 /*var nome = "Victor Duarte";
 var idade = 20;
 var idade2 = 10;
@@ -37,9 +75,21 @@ console.log(lista.join(" - "));*/
 console.log(fruta.cor);
 console.log(fruta.nome);*/
 
-var idade = 18;
+/*var idade = prompt("Qual a sua idade?")
 if (idade >= 18){
     alert("Maior de idade!");
 }else{
-    alert(Menor de idade!);
+    alert("Menor de idade!");
+}*/
+
+/*var count = 0;
+while(count <= 5){
+    alert(count);
+    count++;
+}*/
+
+/*
+for(i = 0; i <= 5; i++){
+    alert(i);
 }
+*/
