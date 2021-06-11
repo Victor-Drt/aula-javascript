@@ -4,6 +4,31 @@ function mostrarMensagem(){
     console.log(document.getElementById("agradecimento"))
 }
 
+function redirecionar(){
+    window.open("https://github.com/")
+    //window.location.href = "https://github.com/"
+}
+
+function trocar_texto(elemento){
+    elemento.innerHTML = "Usando o innerHtml como o proprio parametro"
+    //document.getElementById("mouse_move").innerHTML = "Novo texto"
+    //alert("Texto alterado!")
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui"
+    //document.getElementById("mouse_move").innerHTML = "<b>Obrigado por clicar!</b>"
+    //alert("Texto alterado!")
+}
+
+function load(){
+    alert("Pagina Carregada!")
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+
 //funçoes
 /*function soma(n1,n2){
    return alert(n1+n2);
